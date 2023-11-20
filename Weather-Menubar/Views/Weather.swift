@@ -65,7 +65,9 @@ struct WeatherView: View {
                 .foregroundColor(.white)
                 .onAppear {
                     if !showSettings {
-                        viewModel.loadWeatherData()
+                        DispatchQueue.main.async {
+                          self.viewModel.loadWeatherData()
+                        }
                     }
                 }
                 .alert(isPresented: $viewModel.isLocationPermissionDenied) {
