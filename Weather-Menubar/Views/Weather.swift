@@ -10,7 +10,9 @@ struct WeatherView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Text(viewModel.locationString)
+                (Text(viewModel.locationString) + Text(" ") +
+                        Text(Image(systemName: "location.fill")))
+
                         .font(.system(.subheadline, weight: .semibold))
                 Spacer()
                 Button(action: {
@@ -26,6 +28,7 @@ struct WeatherView: View {
 
             }
                     .padding(.top)
+                    .padding(.bottom, 3)
             if let weatherData = viewModel.weatherInfo,
                let currentWeather = weatherData.current,
                let weatherTimeline = weatherData.timeline {
