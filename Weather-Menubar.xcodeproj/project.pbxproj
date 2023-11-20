@@ -13,7 +13,6 @@
 		03295A1D2B020DD7008F9E22 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A1C2B020DD7008F9E22 /* Weather.swift */; };
 		03295A1F2B020E15008F9E22 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A1E2B020E15008F9E22 /* Settings.swift */; };
 		03295A212B0211A9008F9E22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A202B0211A9008F9E22 /* LocationManager.swift */; };
-		0370FBBB2B051C7600BCD66E /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 0370FBBA2B051C7600BCD66E /* Pow */; };
 		03AF2ADB2B03755E00DA954D /* WeatherDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2ADA2B03755E00DA954D /* WeatherDataModels.swift */; };
 		03AF2ADF2B0375D300DA954D /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2ADE2B0375D300DA954D /* WeatherAPIService.swift */; };
 		03AF2AE22B03764F00DA954D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2AE12B03764F00DA954D /* WeatherViewModel.swift */; };
@@ -64,7 +63,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03065E592B040DCB000B0CA1 /* Solar in Frameworks */,
-				0370FBBB2B051C7600BCD66E /* Pow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +171,6 @@
 			name = "Weather-Menubar";
 			packageProductDependencies = (
 				03065E582B040DCB000B0CA1 /* Solar */,
-				0370FBBA2B051C7600BCD66E /* Pow */,
 			);
 			productName = "Weather-Tomorrow.io";
 			productReference = 032959EE2B01532A008F9E22 /* Weather-Menubar.app */;
@@ -249,7 +246,6 @@
 			mainGroup = 032959E52B01532A008F9E22;
 			packageReferences = (
 				03065E572B040DCB000B0CA1 /* XCRemoteSwiftPackageReference "Solar" */,
-				0370FBB92B051C7600BCD66E /* XCRemoteSwiftPackageReference "Pow" */,
 			);
 			productRefGroup = 032959EF2B01532A008F9E22 /* Products */;
 			projectDirPath = "";
@@ -467,7 +463,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5PLGCB6G83;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Weather-Menubar-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Weather-Menubar";
@@ -500,7 +496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5PLGCB6G83;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Weather-Menubar-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Weather-Menubar";
@@ -643,14 +639,6 @@
 				minimumVersion = 3.0.1;
 			};
 		};
-		0370FBB92B051C7600BCD66E /* XCRemoteSwiftPackageReference "Pow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/movingparts-io/Pow";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -658,11 +646,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 03065E572B040DCB000B0CA1 /* XCRemoteSwiftPackageReference "Solar" */;
 			productName = Solar;
-		};
-		0370FBBA2B051C7600BCD66E /* Pow */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0370FBB92B051C7600BCD66E /* XCRemoteSwiftPackageReference "Pow" */;
-			productName = Pow;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

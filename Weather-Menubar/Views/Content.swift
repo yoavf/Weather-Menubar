@@ -1,6 +1,5 @@
 import SwiftUI
 import Foundation
-import Pow
 
 struct ContentView: View {
     @State private var showSettings = false
