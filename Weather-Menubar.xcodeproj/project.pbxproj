@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032959F22B01532A008F9E22 /* Weather_Tomorrow_ioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032959F12B01532A008F9E22 /* Weather_Tomorrow_ioApp.swift */; };
-		032959F42B01532A008F9E22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032959F32B01532A008F9E22 /* ContentView.swift */; };
+		03065E592B040DCB000B0CA1 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 03065E582B040DCB000B0CA1 /* Solar */; };
+		032959F22B01532A008F9E22 /* Weather_Menubar_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032959F12B01532A008F9E22 /* Weather_Menubar_App.swift */; };
 		032959F62B01532B008F9E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032959F52B01532B008F9E22 /* Assets.xcassets */; };
-		032959F92B01532B008F9E22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032959F82B01532B008F9E22 /* Preview Assets.xcassets */; };
-		03295A042B01532B008F9E22 /* Weather_Tomorrow_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A032B01532B008F9E22 /* Weather_Tomorrow_ioTests.swift */; };
-		03295A0E2B01532B008F9E22 /* Weather_Tomorrow_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A0D2B01532B008F9E22 /* Weather_Tomorrow_ioUITests.swift */; };
-		03295A102B01532B008F9E22 /* Weather_Tomorrow_ioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A0F2B01532B008F9E22 /* Weather_Tomorrow_ioUITestsLaunchTests.swift */; };
+		03295A1D2B020DD7008F9E22 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A1C2B020DD7008F9E22 /* Weather.swift */; };
+		03295A1F2B020E15008F9E22 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A1E2B020E15008F9E22 /* Settings.swift */; };
+		03295A212B0211A9008F9E22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03295A202B0211A9008F9E22 /* LocationManager.swift */; };
+		03AF2ADB2B03755E00DA954D /* WeatherDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2ADA2B03755E00DA954D /* WeatherDataModels.swift */; };
+		03AF2ADF2B0375D300DA954D /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2ADE2B0375D300DA954D /* WeatherAPIService.swift */; };
+		03AF2AE22B03764F00DA954D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF2AE12B03764F00DA954D /* WeatherViewModel.swift */; };
+		6DD0B37616A32EF1DF7ADD50 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B4157B29AA289DAEAC2F /* CurrentWeather.swift */; };
+		6DD0B7760222AF1E07D02262 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B8590FA40FCDDED06216 /* HourlyWeather.swift */; };
+		6DD0BE347551DD8BE032AD7D /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0BB22C34A301D5D813E34 /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032959EE2B01532A008F9E22 /* Weather-Tomorrow.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Tomorrow.io.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		032959F12B01532A008F9E22 /* Weather_Tomorrow_ioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Tomorrow_ioApp.swift; sourceTree = "<group>"; };
-		032959F32B01532A008F9E22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		032959EE2B01532A008F9E22 /* Weather-Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032959F12B01532A008F9E22 /* Weather_Menubar_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Menubar_App.swift; sourceTree = "<group>"; };
 		032959F52B01532B008F9E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		032959F82B01532B008F9E22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		032959FA2B01532B008F9E22 /* Weather_Tomorrow_io.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weather_Tomorrow_io.entitlements; sourceTree = "<group>"; };
-		032959FF2B01532B008F9E22 /* Weather-Tomorrow.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-Tomorrow.ioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03295A032B01532B008F9E22 /* Weather_Tomorrow_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Tomorrow_ioTests.swift; sourceTree = "<group>"; };
-		03295A092B01532B008F9E22 /* Weather-Tomorrow.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-Tomorrow.ioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03295A0D2B01532B008F9E22 /* Weather_Tomorrow_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Tomorrow_ioUITests.swift; sourceTree = "<group>"; };
-		03295A0F2B01532B008F9E22 /* Weather_Tomorrow_ioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Tomorrow_ioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		032959FA2B01532B008F9E22 /* Weather_Menubar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weather_Menubar.entitlements; sourceTree = "<group>"; };
+		032959FF2B01532B008F9E22 /* Weather-MenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-MenubarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03295A092B01532B008F9E22 /* Weather-MenubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-MenubarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03295A1C2B020DD7008F9E22 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		03295A1E2B020E15008F9E22 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		03295A202B0211A9008F9E22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		03295A222B021456008F9E22 /* Weather-Menubar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weather-Menubar-Info.plist"; sourceTree = SOURCE_ROOT; };
+		03AF2ADA2B03755E00DA954D /* WeatherDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModels.swift; sourceTree = "<group>"; };
+		03AF2ADE2B0375D300DA954D /* WeatherAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		03AF2AE12B03764F00DA954D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		6DD0B4157B29AA289DAEAC2F /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		6DD0B8590FA40FCDDED06216 /* HourlyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
+		6DD0BB22C34A301D5D813E34 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03065E592B040DCB000B0CA1 /* Solar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +86,7 @@
 		032959E52B01532A008F9E22 = {
 			isa = PBXGroup;
 			children = (
-				032959F02B01532A008F9E22 /* Weather-Tomorrow.io */,
-				03295A022B01532B008F9E22 /* Weather-Tomorrow.ioTests */,
-				03295A0C2B01532B008F9E22 /* Weather-Tomorrow.ioUITests */,
+				032959F02B01532A008F9E22 /* Weather-Menubar */,
 				032959EF2B01532A008F9E22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,56 +94,71 @@
 		032959EF2B01532A008F9E22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				032959EE2B01532A008F9E22 /* Weather-Tomorrow.io.app */,
-				032959FF2B01532B008F9E22 /* Weather-Tomorrow.ioTests.xctest */,
-				03295A092B01532B008F9E22 /* Weather-Tomorrow.ioUITests.xctest */,
+				032959EE2B01532A008F9E22 /* Weather-Menubar.app */,
+				032959FF2B01532B008F9E22 /* Weather-MenubarTests.xctest */,
+				03295A092B01532B008F9E22 /* Weather-MenubarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		032959F02B01532A008F9E22 /* Weather-Tomorrow.io */ = {
+		032959F02B01532A008F9E22 /* Weather-Menubar */ = {
 			isa = PBXGroup;
 			children = (
-				032959F12B01532A008F9E22 /* Weather_Tomorrow_ioApp.swift */,
-				032959F32B01532A008F9E22 /* ContentView.swift */,
+				03AF2AE02B03763F00DA954D /* ViewModels */,
+				03AF2ADD2B0375C200DA954D /* Services */,
+				03AF2ADC2B03758C00DA954D /* Views */,
+				03AF2AD92B03754300DA954D /* Models */,
+				03295A222B021456008F9E22 /* Weather-Menubar-Info.plist */,
+				032959F12B01532A008F9E22 /* Weather_Menubar_App.swift */,
 				032959F52B01532B008F9E22 /* Assets.xcassets */,
-				032959FA2B01532B008F9E22 /* Weather_Tomorrow_io.entitlements */,
-				032959F72B01532B008F9E22 /* Preview Content */,
+				032959FA2B01532B008F9E22 /* Weather_Menubar.entitlements */,
 			);
-			path = "Weather-Tomorrow.io";
+			path = "Weather-Menubar";
 			sourceTree = "<group>";
 		};
-		032959F72B01532B008F9E22 /* Preview Content */ = {
+		03AF2AD92B03754300DA954D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				032959F82B01532B008F9E22 /* Preview Assets.xcassets */,
+				03AF2ADA2B03755E00DA954D /* WeatherDataModels.swift */,
 			);
-			path = "Preview Content";
+			path = Models;
 			sourceTree = "<group>";
 		};
-		03295A022B01532B008F9E22 /* Weather-Tomorrow.ioTests */ = {
+		03AF2ADC2B03758C00DA954D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				03295A032B01532B008F9E22 /* Weather_Tomorrow_ioTests.swift */,
+				03295A1C2B020DD7008F9E22 /* Weather.swift */,
+				03295A1E2B020E15008F9E22 /* Settings.swift */,
+				6DD0BB22C34A301D5D813E34 /* Content.swift */,
+				6DD0B8590FA40FCDDED06216 /* HourlyWeather.swift */,
+				6DD0B4157B29AA289DAEAC2F /* CurrentWeather.swift */,
 			);
-			path = "Weather-Tomorrow.ioTests";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		03295A0C2B01532B008F9E22 /* Weather-Tomorrow.ioUITests */ = {
+		03AF2ADD2B0375C200DA954D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				03295A0D2B01532B008F9E22 /* Weather_Tomorrow_ioUITests.swift */,
-				03295A0F2B01532B008F9E22 /* Weather_Tomorrow_ioUITestsLaunchTests.swift */,
+				03295A202B0211A9008F9E22 /* LocationManager.swift */,
+				03AF2ADE2B0375D300DA954D /* WeatherAPIService.swift */,
 			);
-			path = "Weather-Tomorrow.ioUITests";
+			path = Services;
+			sourceTree = "<group>";
+		};
+		03AF2AE02B03763F00DA954D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				03AF2AE12B03764F00DA954D /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		032959ED2B01532A008F9E22 /* Weather-Tomorrow.io */ = {
+		032959ED2B01532A008F9E22 /* Weather-Menubar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03295A132B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.io" */;
+			buildConfigurationList = 03295A132B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Menubar" */;
 			buildPhases = (
 				032959EA2B01532A008F9E22 /* Sources */,
 				032959EB2B01532A008F9E22 /* Frameworks */,
@@ -144,14 +168,17 @@
 			);
 			dependencies = (
 			);
-			name = "Weather-Tomorrow.io";
+			name = "Weather-Menubar";
+			packageProductDependencies = (
+				03065E582B040DCB000B0CA1 /* Solar */,
+			);
 			productName = "Weather-Tomorrow.io";
-			productReference = 032959EE2B01532A008F9E22 /* Weather-Tomorrow.io.app */;
+			productReference = 032959EE2B01532A008F9E22 /* Weather-Menubar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		032959FE2B01532B008F9E22 /* Weather-Tomorrow.ioTests */ = {
+		032959FE2B01532B008F9E22 /* Weather-MenubarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03295A162B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.ioTests" */;
+			buildConfigurationList = 03295A162B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-MenubarTests" */;
 			buildPhases = (
 				032959FB2B01532B008F9E22 /* Sources */,
 				032959FC2B01532B008F9E22 /* Frameworks */,
@@ -162,14 +189,14 @@
 			dependencies = (
 				03295A012B01532B008F9E22 /* PBXTargetDependency */,
 			);
-			name = "Weather-Tomorrow.ioTests";
+			name = "Weather-MenubarTests";
 			productName = "Weather-Tomorrow.ioTests";
-			productReference = 032959FF2B01532B008F9E22 /* Weather-Tomorrow.ioTests.xctest */;
+			productReference = 032959FF2B01532B008F9E22 /* Weather-MenubarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03295A082B01532B008F9E22 /* Weather-Tomorrow.ioUITests */ = {
+		03295A082B01532B008F9E22 /* Weather-MenubarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03295A192B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.ioUITests" */;
+			buildConfigurationList = 03295A192B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-MenubarUITests" */;
 			buildPhases = (
 				03295A052B01532B008F9E22 /* Sources */,
 				03295A062B01532B008F9E22 /* Frameworks */,
@@ -180,9 +207,9 @@
 			dependencies = (
 				03295A0B2B01532B008F9E22 /* PBXTargetDependency */,
 			);
-			name = "Weather-Tomorrow.ioUITests";
+			name = "Weather-MenubarUITests";
 			productName = "Weather-Tomorrow.ioUITests";
-			productReference = 03295A092B01532B008F9E22 /* Weather-Tomorrow.ioUITests.xctest */;
+			productReference = 03295A092B01532B008F9E22 /* Weather-MenubarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 032959E92B01532A008F9E22 /* Build configuration list for PBXProject "Weather-Tomorrow.io" */;
+			buildConfigurationList = 032959E92B01532A008F9E22 /* Build configuration list for PBXProject "Weather-Menubar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,13 +244,16 @@
 				Base,
 			);
 			mainGroup = 032959E52B01532A008F9E22;
+			packageReferences = (
+				03065E572B040DCB000B0CA1 /* XCRemoteSwiftPackageReference "Solar" */,
+			);
 			productRefGroup = 032959EF2B01532A008F9E22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				032959ED2B01532A008F9E22 /* Weather-Tomorrow.io */,
-				032959FE2B01532B008F9E22 /* Weather-Tomorrow.ioTests */,
-				03295A082B01532B008F9E22 /* Weather-Tomorrow.ioUITests */,
+				032959ED2B01532A008F9E22 /* Weather-Menubar */,
+				032959FE2B01532B008F9E22 /* Weather-MenubarTests */,
+				03295A082B01532B008F9E22 /* Weather-MenubarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032959F92B01532B008F9E22 /* Preview Assets.xcassets in Resources */,
 				032959F62B01532B008F9E22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032959F42B01532A008F9E22 /* ContentView.swift in Sources */,
-				032959F22B01532A008F9E22 /* Weather_Tomorrow_ioApp.swift in Sources */,
+				03295A212B0211A9008F9E22 /* LocationManager.swift in Sources */,
+				03295A1D2B020DD7008F9E22 /* Weather.swift in Sources */,
+				032959F22B01532A008F9E22 /* Weather_Menubar_App.swift in Sources */,
+				03AF2AE22B03764F00DA954D /* WeatherViewModel.swift in Sources */,
+				03AF2ADF2B0375D300DA954D /* WeatherAPIService.swift in Sources */,
+				03295A1F2B020E15008F9E22 /* Settings.swift in Sources */,
+				03AF2ADB2B03755E00DA954D /* WeatherDataModels.swift in Sources */,
+				6DD0BE347551DD8BE032AD7D /* Content.swift in Sources */,
+				6DD0B7760222AF1E07D02262 /* HourlyWeather.swift in Sources */,
+				6DD0B37616A32EF1DF7ADD50 /* CurrentWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03295A042B01532B008F9E22 /* Weather_Tomorrow_ioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03295A102B01532B008F9E22 /* Weather_Tomorrow_ioUITestsLaunchTests.swift in Sources */,
-				03295A0E2B01532B008F9E22 /* Weather_Tomorrow_ioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +320,12 @@
 /* Begin PBXTargetDependency section */
 		03295A012B01532B008F9E22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 032959ED2B01532A008F9E22 /* Weather-Tomorrow.io */;
+			target = 032959ED2B01532A008F9E22 /* Weather-Menubar */;
 			targetProxy = 03295A002B01532B008F9E22 /* PBXContainerItemProxy */;
 		};
 		03295A0B2B01532B008F9E22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 032959ED2B01532A008F9E22 /* Weather-Tomorrow.io */;
+			target = 032959ED2B01532A008F9E22 /* Weather-Menubar */;
 			targetProxy = 03295A0A2B01532B008F9E22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -331,6 +365,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -394,6 +429,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -420,14 +456,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Weather-Tomorrow.io/Weather_Tomorrow_io.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Weather-Menubar/Weather_Menubar.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Weather-Tomorrow.io/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 5PLGCB6G83;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Menubar-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather-Menubar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to provide weather updates for your area.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide weather updates for your area.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -445,14 +489,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Weather-Tomorrow.io/Weather_Tomorrow_io.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Weather-Menubar/Weather_Menubar.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Weather-Tomorrow.io/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 5PLGCB6G83;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Menubar-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather-Menubar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to provide weather updates for your area.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide weather updates for your area.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -472,6 +524,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -479,7 +532,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather-Tomorrow.io.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weather-Tomorrow.io";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather-Menubar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weather-Menubar";
 			};
 			name = Debug;
 		};
@@ -490,6 +543,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -497,7 +551,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather-Tomorrow.io.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weather-Tomorrow.io";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather-Menubar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weather-Menubar";
 			};
 			name = Release;
 		};
@@ -507,6 +561,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.yoavfarhi.Weather-Tomorrow-ioUITests";
@@ -523,6 +578,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.yoavfarhi.Weather-Tomorrow-ioUITests";
@@ -536,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		032959E92B01532A008F9E22 /* Build configuration list for PBXProject "Weather-Tomorrow.io" */ = {
+		032959E92B01532A008F9E22 /* Build configuration list for PBXProject "Weather-Menubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03295A112B01532B008F9E22 /* Debug */,
@@ -545,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03295A132B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.io" */ = {
+		03295A132B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Menubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03295A142B01532B008F9E22 /* Debug */,
@@ -554,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03295A162B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.ioTests" */ = {
+		03295A162B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-MenubarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03295A172B01532B008F9E22 /* Debug */,
@@ -563,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03295A192B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-Tomorrow.ioUITests" */ = {
+		03295A192B01532B008F9E22 /* Build configuration list for PBXNativeTarget "Weather-MenubarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03295A1A2B01532B008F9E22 /* Debug */,
@@ -573,6 +629,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03065E572B040DCB000B0CA1 /* XCRemoteSwiftPackageReference "Solar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ceeK/Solar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03065E582B040DCB000B0CA1 /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03065E572B040DCB000B0CA1 /* XCRemoteSwiftPackageReference "Solar" */;
+			productName = Solar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 032959E62B01532A008F9E22 /* Project object */;
 }
